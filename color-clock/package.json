@@ -1,0 +1,25 @@
+{
+  "name": "color-clock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Hello World!'",
+    "start": "serve",
+    "build": "esbuild index.js --bundle --outfile=dist/out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Tyratheegreatest/react-hooks-npm-lab.git"
+  },
+  "author": "Tyra Norah Otieno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tyratheegreatest/react-hooks-npm-lab/issues"
+  },
+  "homepage": "https://github.com/Tyratheegreatest/react-hooks-npm-lab#readme",
+  "description": "",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "serve": "^14.2.2"
+  }
+}
